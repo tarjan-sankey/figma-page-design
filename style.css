@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav Bar CSS */
+
+.comp-logo {
+    color: var(--dark-100, #24282C);
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.highlight {
+    color: var(--primary-100, #A5823C);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 11.0625rem;
+    /* border: 1px solid red; used while testing */
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 1.5rem;
+    color: var(--primary-100, #A5823C);
+    /* web/Font-6/bold */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav div {
+    display: flex;
+    /* width: 12.9375rem; */
+    height: 5.0625rem;
+    padding: 1.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+nav div:nth-of-type(2) {
+    background: var(--primary-100, #A5823C);
+    display: flex;
+    /* width: 12.9375rem; */
+    height: 5.0625rem;
+    padding: 1.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+nav div a {
+    color: var(--background-light-100, #FFF);
+    text-align: center;
+    /* web/Font-6/semibold */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #878787;
+}
+
+ul li a:hover {
+    color: #A5823C;
+}
+
+
+/* Section-1 CSS (container-1) */
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    margin-top: 5.31rem;
+}
+
+.cont-1-left {
+    flex: 1;
+}
+
+.cont-1-left p {
+    color: var(--dark-100, #24282C);
+    /* web/Font-6/bold */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cont-1-left h1 {
+    color: var(--dark-100, #24282C);
+    /* web/Font-1/extrabold */
+    font-family: Manrope;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.cont-1-left h1 span {
+    color: var(--primary-100, #A5823C);
+    /* web/Font-1/extrabold */
+    font-family: Manrope;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+div p:nth-of-type(2) {
+    color: var(--grey-100, #878787);
+    /* web/p-regular/37 */
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.3125rem; /* 154.167% */
+    margin-right: 8rem;
+  }
+
+
+.cont-1-right {
+    background-color: #383735;
+    flex: 0.5;
+}
+
+
+/* section 2 CSS (container-2) */
+.container-2 {
+    background: var(--image-thumbnail-4, url('./photo-grapher.png'), lightgray 50% / cover no-repeat);
+    height: 40rem;
+    margin: 5rem;
+}
+
+
+/* section-3 (container-3) */
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    /* width: 90rem; */
+    height: 56.6875rem;
+    flex-shrink: 0;
+}
+
+/* .cont-3-left {
+
+} */
+
+.cont-3-right {
+    background: url('./person-in-hoodie.png'), lightgray 50% / cover no-repeat;
+    /* width: 37.875rem; */
+    height: 47.3125rem;
+}
